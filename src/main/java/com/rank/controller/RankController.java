@@ -18,5 +18,7 @@ public class RankController {
     @Scheduled(fixedDelay = 1000, initialDelay = 5000)
     public void InitialDelayTest() {
         log.info("Top10 Rank 수정합니다. 현재 시각 : " + System.currentTimeMillis() );
+
+        // TOP10 랭크 불러오고, 저장하는 로직
     }
 }
